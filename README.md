@@ -2,6 +2,39 @@
 
 - Basically, demonstrates how we can cache the content in Springboot.
 
+## Process
+
+### Step 0: Boilerplate creation
+
+#### Target
+Setup for a basic JPA based Springboot application with all the required dependencies.
+
+#### Mandatory steps
+- Create a base project using [Spring initialzr](https://start.spring.io/)
+  - `Spring Web` and `Spring Data JPA` is must.
+
+#### Additional steps
+- Added `Actuator`, `Lombok` and `Rest Repositories` for saving development time.
+- Added ~~HAL Explorer~~ to view changes in GUI.
+
+### Step 1: Base code
+
+#### Target
+Creation of base code which includes the creation of the basic Entity and related CRUD operations
+
+#### Mandatory steps
+- Added **Database Configuration** with required annotations like
+  - `@EnableJpaRepositories`
+  - `@Configuration`
+- Adde `Product` entity and repository.
+
+#### Additional Steps
+- Replaced `HAL Explorer` by `Open API Docs` for UI and added its configuration.
+- Added Documentation using Open API.
+- Added Audit details for tracking changes.
+
+
+
 ## Sonar
 
 ### Badges
