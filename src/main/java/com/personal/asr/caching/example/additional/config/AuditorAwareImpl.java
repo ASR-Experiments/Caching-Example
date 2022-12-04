@@ -9,6 +9,8 @@ public class AuditorAwareImpl implements AuditorAware<String> {
 
   @Override
   public Optional<String> getCurrentAuditor() {
+
+    // Hardcoded Auditor as `APP` for now, till we don't have Spring boot Security.
     return Optional.of("APP");
   }
 
