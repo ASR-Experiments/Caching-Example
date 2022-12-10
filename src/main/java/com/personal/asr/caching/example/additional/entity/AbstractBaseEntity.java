@@ -42,7 +42,8 @@ public abstract class AbstractBaseEntity {
   @Id
   @Schema(description = "Unique id for the Entity", accessMode = AccessMode.READ_ONLY)
   @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name = COLUMN_ID_NAME, nullable = false)
+  @Column(name = COLUMN_ID_NAME, nullable = false, updatable = false)
+  @org.hibernate.annotations.Type(type = "uuid-char")
   private UUID id;
 
   @Setter(AccessLevel.NONE)
@@ -54,6 +55,7 @@ public abstract class AbstractBaseEntity {
   @Setter(AccessLevel.NONE)
   @Temporal(TemporalType.TIMESTAMP)
   @CreatedDate
+  @Column(nullable = false, updatable = false)
   @Schema(description = "Time when entity was created", accessMode = AccessMode.READ_ONLY)
   private Date createdDate;
 
@@ -65,6 +67,7 @@ public abstract class AbstractBaseEntity {
 
   @Setter(AccessLevel.NONE)
   @CreatedBy
+  @Column(nullable = false, updatable = false)
   @Schema(description = "Name of the user who created the entity", accessMode = AccessMode.READ_ONLY)
   private String createdBy;
 
