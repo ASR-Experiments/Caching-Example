@@ -43,6 +43,7 @@ public abstract class AbstractBaseEntity {
   @Schema(description = "Unique id for the Entity", accessMode = AccessMode.READ_ONLY)
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = COLUMN_ID_NAME, nullable = false)
+  @org.hibernate.annotations.Type(type = "uuid-char")
   private UUID id;
 
   @Setter(AccessLevel.NONE)
