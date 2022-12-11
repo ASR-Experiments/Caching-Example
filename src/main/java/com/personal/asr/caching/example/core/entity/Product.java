@@ -4,6 +4,7 @@ import com.personal.asr.caching.example.additional.entity.AbstractBaseEntity;
 import com.personal.asr.caching.example.core.model.enums.ProductType;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.math.BigDecimal;
+import javax.persistence.Cacheable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -16,7 +17,11 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 @SuperBuilder
 @Getter
 @Setter

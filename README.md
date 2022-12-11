@@ -38,19 +38,19 @@ Creation of base code which includes the creation of the basic Entity and relate
 ## Sonar
 
 ### Badges
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=ArvindSinghRawat_E-Commerce-Inventory)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=ASR-Experiments_Caching-Example)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
 
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
 
 ### Stats
 
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ArvindSinghRawat_E-Commerce-Inventory&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=ArvindSinghRawat_E-Commerce-Inventory)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ASR-Experiments_Caching-Example&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=ASR-Experiments_Caching-Example)

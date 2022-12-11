@@ -38,6 +38,9 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 //    Specific to MySQL
     runtimeOnly("com.mysql:mysql-connector-j")
+//    Caching related dependencies
+    implementation("org.hibernate:hibernate-jcache:5.6.14.Final")
+    implementation("org.ehcache:ehcache:3.10.8")
 //    Can be ignored
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     implementation("org.springframework.boot:spring-boot-starter-data-rest")
